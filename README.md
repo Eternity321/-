@@ -7,4 +7,4 @@
 ```
 git clone https://github.com/Eternity321/-.git
 ```
-Запустить Запуск lab 1.exe.
+Запустить "Запуск lab 1.lnk".
