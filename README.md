@@ -7,4 +7,4 @@
 ```
 git clone https://github.com/Eternity321/-.git
 ```
-Запустить "Запуск lab 1.lnk".
+Перейти по следующему пути lab 1\ConsoleApp1\bin\Debug\net8.0 и запустить ConsoleApp1.

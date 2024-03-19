@@ -97,9 +97,14 @@ class Program
         {
             Console.Write("Введите начальную дату в формате (день.месяц.год):");
             string[] initialDateParts = Console.ReadLine().Split('.');
-            int day = int.Parse(initialDateParts[0]);
-            int month = int.Parse(initialDateParts[1]);
-            int year = int.Parse(initialDateParts[2]);
+
+            if (initialDateParts.Length != 3 ||
+                !int.TryParse(initialDateParts[0], out int day) ||
+                !int.TryParse(initialDateParts[1], out int month) ||
+                !int.TryParse(initialDateParts[2], out int year))
+            {
+                throw new ArgumentException("Неправильный формат ввода даты. Перезапустите приложение и попробуйте ещё.");
+            }
 
             Date date = new Date(day, month, year);
             Console.WriteLine($"Начальная дата: {date}");
@@ -122,5 +127,6 @@ class Program
         {
             Console.WriteLine($"Ошибка: {ex.Message}");
         }
+        Console.ReadLine();
     }
 }
