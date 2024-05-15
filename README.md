@@ -15,6 +15,6 @@ git clone https://github.com/Eternity321/-.git
 StartApp.bat
 
 # Задача 3
- |Реализация рефлексии.
+ Реализация рефлексии.
 ## Запуск
 StartApp.bat. Для работы необходимо загрузить dll библиотеку из директории dlls
