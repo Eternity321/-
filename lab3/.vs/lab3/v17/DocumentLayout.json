@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jakim\\Desktop\\lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|c:\\users\\jakim\\desktop\\lab3\\lab3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|solutionrelative:lab3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|c:\\users\\jakim\\desktop\\lab3\\lab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|solutionrelative:lab3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|c:\\users\\jakim\\desktop\\lab3\\lab3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|solutionrelative:lab3\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|c:\\users\\jakim\\desktop\\lab3\\lab3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|solutionrelative:lab3\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|c:\\users\\jakim\\desktop\\lab3\\lab3\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|solutionrelative:lab3\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|c:\\users\\jakim\\desktop\\lab3\\lab3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C0FB3245-48D5-4FFC-B3EE-18AF54C21419}|lab3\\lab3.csproj|solutionrelative:lab3\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1546,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\App.xaml.cs",
+              "RelativeDocumentMoniker": "lab3\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\App.xaml.cs",
+              "RelativeToolTip": "lab3\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:15:58.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\App.xaml",
+              "RelativeDocumentMoniker": "lab3\\App.xaml",
+              "ToolTip": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\App.xaml",
+              "RelativeToolTip": "lab3\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-15T15:09:54.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "lab3\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\AssemblyInfo.cs",
+              "RelativeToolTip": "lab3\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:09:53.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "lab3\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "lab3\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAowIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:44:40.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "lab3\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAwwCkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:40:46.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "lab3\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\jakim\\Desktop\\lab3\\lab3\\MainWindow.xaml",
+              "RelativeToolTip": "lab3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-12T12:40:47.075Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+﻿<Window x:Class="lab2_6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2_6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="130" Width="521"
+        Background="white">
+    <Grid Margin="0,0,0,-100">
+        <Border Width="Auto" Height="50" VerticalAlignment="Top" Background="#FFECECEC" DockPanel.Dock="Top">
+            <DockPanel>
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" Height="50" FlowDirection="LeftToRight" HorizontalAlignment="Left">
+                    <Button x:Name="animalButton" Content="Животные" Height="50" Width="100" Background="{x:Null}" Foreground="black" Click="OpenButton_click" FontSize="18" />
+                    <TextBlock Height="25" Text="{Binding Data}" Width="350" Background="{x:Null}" Foreground="#FF373839" FontSize="18" TextAlignment="Center" />
+
+                    <Popup x:Name="animalPopup" StaysOpen="False" Placement="Bottom">
+                        <Border Background="#FFECECEC">
+                            <StackPanel>
+                                <Button x:Name="dogButton" Command="{Binding DogCommand}" Content="Собака" Width="112" Height="50" Background="#FFECECEC" BorderThickness="0" Foreground="#FF373839" HorizontalAlignment="Left" VerticalAlignment="Top" Click="CloseButton_click" BorderBrush="{x:Null}" FontSize="18" />
+                                <Button x:Name="panterButton" Command="{Binding PantherCommand}" Content="Пантера" Width="112" Height="50" Background="#FFECECEC" BorderThickness="0" Foreground="#FF373839" HorizontalAlignment="Left" VerticalAlignment="Top" Click="CloseButton_click" BorderBrush="{x:Null}" FontSize="18"/>
+                                <Button x:Name="tortoiseButton" Command="{Binding TurtleCommand}" Content="Черепаха" Width="112" Height="50" Background="#FFECECEC" BorderThickness="0" Foreground="#FF373839" HorizontalAlignment="Left" VerticalAlignment="Top" Click="CloseButton_click" BorderBrush="{x:Null}" FontSize="18"/>
+                            </StackPanel>
+                        </Border>
+                    </Popup>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+        <Border Width="Auto" Height="50" Background="#FFECECEC" VerticalAlignment="Stretch" Margin="0,0,0,48" >
+            <StackPanel Orientation="Horizontal" Height="50" FlowDirection="LeftToRight" HorizontalAlignment="Center">
+                <Button x:Name="runButton" Command="{Binding RunCommand}" Content="Ускориться" Height="50" Width="80" Background="{x:Null}" Foreground="black" FontSize="14" />
+                <Button x:Name="stopButton" Command="{Binding StopCommand}" Content="Замедлиться" Height="50" Width="100" Background="{x:Null}" Foreground="black" FontSize="14" />
+                <Button x:Name="jumpButton" Command="{Binding jumpCommand}" Content="Прыжок" Height="50" Width="60" Background="{x:Null}" Foreground="black" FontSize="14" />
+            </StackPanel>
+        </Border>
+    </Grid>
+
+</Window>
